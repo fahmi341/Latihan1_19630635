@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Hitung;
 
-/**
- *
- * @author User
- */
 public class MatematikaBeraksi {
-    
+    //membuat objek
+    public static void main(String[] args) {
+        Matematika fahmi = new Matematika(3,5);
+
+        System.out.println("Hasil Penjumlahan = " + fahmi.setPenjumlahan());
+        System.out.println("Hasil Pengurangan = " + fahmi.setPengurangan());
+        System.out.println("Hasil Perkalian = " + fahmi.setPerkalian());
+        System.out.println("Hasil Pembagian = " + fahmi.setPembagian());
+    }
 }
